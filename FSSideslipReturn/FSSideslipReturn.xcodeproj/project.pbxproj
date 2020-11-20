@@ -17,6 +17,12 @@
 		4818AD60256761FB009DE118 /* FSFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4818AD5F256761FB009DE118 /* FSFlowLayout.m */; };
 		4818AD6A25676293009DE118 /* FSCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4818AD6725676292009DE118 /* FSCVCell.m */; };
 		4818AD6B25676293009DE118 /* FSCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4818AD6925676292009DE118 /* FSCVCell.xib */; };
+		4818ADA525678D17009DE118 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4818ADA425678D17009DE118 /* AppDelegate.m */; };
+		4818ADAB25678D17009DE118 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4818ADAA25678D17009DE118 /* ViewController.m */; };
+		4818ADAE25678D17009DE118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4818ADAC25678D17009DE118 /* Main.storyboard */; };
+		4818ADB025678D1B009DE118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4818ADAF25678D1B009DE118 /* Assets.xcassets */; };
+		4818ADB325678D1B009DE118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4818ADB125678D1B009DE118 /* LaunchScreen.storyboard */; };
+		4818ADB625678D1B009DE118 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4818ADB525678D1B009DE118 /* main.m */; };
 		48752CA52567512300648B4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48752CA42567512300648B4F /* AppDelegate.m */; };
 		48752CAB2567512300648B4F /* FSHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48752CAA2567512300648B4F /* FSHomeVC.m */; };
 		48752CB02567512700648B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48752CAF2567512700648B4F /* Assets.xcassets */; };
@@ -45,6 +51,16 @@
 		4818AD6725676292009DE118 /* FSCVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCVCell.m; sourceTree = "<group>"; };
 		4818AD6825676292009DE118 /* FSCVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCVCell.h; sourceTree = "<group>"; };
 		4818AD6925676292009DE118 /* FSCVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSCVCell.xib; sourceTree = "<group>"; };
+		4818ADA125678D17009DE118 /* FSScreenJT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSScreenJT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4818ADA325678D17009DE118 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4818ADA425678D17009DE118 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4818ADA925678D17009DE118 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4818ADAA25678D17009DE118 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4818ADAD25678D17009DE118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4818ADAF25678D1B009DE118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4818ADB225678D1B009DE118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4818ADB425678D1B009DE118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4818ADB525678D1B009DE118 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48752CA02567512300648B4F /* FSSideslipReturn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSSideslipReturn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48752CA32567512300648B4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		48752CA42567512300648B4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,6 +81,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		4818AD2E25675CF6009DE118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4818AD9E25678D17009DE118 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -112,11 +135,28 @@
 			path = FerrisWheel;
 			sourceTree = "<group>";
 		};
+		4818ADA225678D17009DE118 /* FSScreenJT */ = {
+			isa = PBXGroup;
+			children = (
+				4818ADA325678D17009DE118 /* AppDelegate.h */,
+				4818ADA425678D17009DE118 /* AppDelegate.m */,
+				4818ADA925678D17009DE118 /* ViewController.h */,
+				4818ADAA25678D17009DE118 /* ViewController.m */,
+				4818ADAC25678D17009DE118 /* Main.storyboard */,
+				4818ADAF25678D1B009DE118 /* Assets.xcassets */,
+				4818ADB125678D1B009DE118 /* LaunchScreen.storyboard */,
+				4818ADB425678D1B009DE118 /* Info.plist */,
+				4818ADB525678D1B009DE118 /* main.m */,
+			);
+			path = FSScreenJT;
+			sourceTree = "<group>";
+		};
 		48752C972567512300648B4F = {
 			isa = PBXGroup;
 			children = (
 				48752CA22567512300648B4F /* FSSideslipReturn */,
 				4818AD3225675CF6009DE118 /* FSFerrisWheel */,
+				4818ADA225678D17009DE118 /* FSScreenJT */,
 				48752CA12567512300648B4F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,6 +166,7 @@
 			children = (
 				48752CA02567512300648B4F /* FSSideslipReturn.app */,
 				4818AD3125675CF6009DE118 /* FSFerrisWheel.app */,
+				4818ADA125678D17009DE118 /* FSScreenJT.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -196,6 +237,23 @@
 			productReference = 4818AD3125675CF6009DE118 /* FSFerrisWheel.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4818ADA025678D17009DE118 /* FSScreenJT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4818ADB725678D1B009DE118 /* Build configuration list for PBXNativeTarget "FSScreenJT" */;
+			buildPhases = (
+				4818AD9D25678D17009DE118 /* Sources */,
+				4818AD9E25678D17009DE118 /* Frameworks */,
+				4818AD9F25678D17009DE118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSScreenJT;
+			productName = FSScreenJT;
+			productReference = 4818ADA125678D17009DE118 /* FSScreenJT.app */;
+			productType = "com.apple.product-type.application";
+		};
 		48752C9F2567512300648B4F /* FSSideslipReturn */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48752CB92567512700648B4F /* Build configuration list for PBXNativeTarget "FSSideslipReturn" */;
@@ -224,6 +282,9 @@
 					4818AD3025675CF6009DE118 = {
 						CreatedOnToolsVersion = 12.2;
 					};
+					4818ADA025678D17009DE118 = {
+						CreatedOnToolsVersion = 12.2;
+					};
 					48752C9F2567512300648B4F = {
 						CreatedOnToolsVersion = 12.2;
 					};
@@ -244,6 +305,7 @@
 			targets = (
 				48752C9F2567512300648B4F /* FSSideslipReturn */,
 				4818AD3025675CF6009DE118 /* FSFerrisWheel */,
+				4818ADA025678D17009DE118 /* FSScreenJT */,
 			);
 		};
 /* End PBXProject section */
@@ -257,6 +319,16 @@
 				4818AD4325675CF9009DE118 /* LaunchScreen.storyboard in Resources */,
 				4818AD4025675CF9009DE118 /* Assets.xcassets in Resources */,
 				4818AD3E25675CF6009DE118 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4818AD9F25678D17009DE118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4818ADB325678D1B009DE118 /* LaunchScreen.storyboard in Resources */,
+				4818ADB025678D1B009DE118 /* Assets.xcassets in Resources */,
+				4818ADAE25678D17009DE118 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +354,16 @@
 				4818AD5725675D84009DE118 /* FSFerrisWheelView.m in Sources */,
 				4818AD4625675CFA009DE118 /* main.m in Sources */,
 				4818AD60256761FB009DE118 /* FSFlowLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4818AD9D25678D17009DE118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4818ADAB25678D17009DE118 /* ViewController.m in Sources */,
+				4818ADA525678D17009DE118 /* AppDelegate.m in Sources */,
+				4818ADB625678D1B009DE118 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +395,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				4818AD4225675CF9009DE118 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4818ADAC25678D17009DE118 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4818ADAD25678D17009DE118 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4818ADB125678D1B009DE118 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4818ADB225678D1B009DE118 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -363,6 +461,46 @@
 				);
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhidoulink.FSFerrisWheel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4818ADB825678D1B009DE118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CJVWY5HNMC;
+				INFOPLIST_FILE = FSScreenJT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhidoulink.FSScreenJT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4818ADB925678D1B009DE118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CJVWY5HNMC;
+				INFOPLIST_FILE = FSScreenJT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhidoulink.FSScreenJT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -530,6 +668,15 @@
 			buildConfigurations = (
 				4818AD4825675CFA009DE118 /* Debug */,
 				4818AD4925675CFA009DE118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4818ADB725678D1B009DE118 /* Build configuration list for PBXNativeTarget "FSScreenJT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4818ADB825678D1B009DE118 /* Debug */,
+				4818ADB925678D1B009DE118 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
