@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4818AD3525675CF6009DE118 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4818AD3425675CF6009DE118 /* AppDelegate.m */; };
+		4818AD3B25675CF6009DE118 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4818AD3A25675CF6009DE118 /* ViewController.m */; };
+		4818AD3E25675CF6009DE118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4818AD3C25675CF6009DE118 /* Main.storyboard */; };
+		4818AD4025675CF9009DE118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4818AD3F25675CF9009DE118 /* Assets.xcassets */; };
+		4818AD4325675CF9009DE118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4818AD4125675CF9009DE118 /* LaunchScreen.storyboard */; };
+		4818AD4625675CFA009DE118 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4818AD4525675CFA009DE118 /* main.m */; };
+		4818AD5725675D84009DE118 /* FSFerrisWheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4818AD5625675D84009DE118 /* FSFerrisWheelView.m */; };
+		4818AD60256761FB009DE118 /* FSFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4818AD5F256761FB009DE118 /* FSFlowLayout.m */; };
+		4818AD6A25676293009DE118 /* FSCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4818AD6725676292009DE118 /* FSCVCell.m */; };
+		4818AD6B25676293009DE118 /* FSCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4818AD6925676292009DE118 /* FSCVCell.xib */; };
 		48752CA52567512300648B4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48752CA42567512300648B4F /* AppDelegate.m */; };
 		48752CAB2567512300648B4F /* FSHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48752CAA2567512300648B4F /* FSHomeVC.m */; };
 		48752CB02567512700648B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48752CAF2567512700648B4F /* Assets.xcassets */; };
@@ -18,6 +28,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4818AD3125675CF6009DE118 /* FSFerrisWheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSFerrisWheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4818AD3325675CF6009DE118 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4818AD3425675CF6009DE118 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4818AD3925675CF6009DE118 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4818AD3A25675CF6009DE118 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4818AD3D25675CF6009DE118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4818AD3F25675CF9009DE118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4818AD4225675CF9009DE118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4818AD4425675CFA009DE118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4818AD4525675CFA009DE118 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4818AD5525675D84009DE118 /* FSFerrisWheelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSFerrisWheelView.h; sourceTree = "<group>"; };
+		4818AD5625675D84009DE118 /* FSFerrisWheelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSFerrisWheelView.m; sourceTree = "<group>"; };
+		4818AD5E256761FB009DE118 /* FSFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFlowLayout.h; sourceTree = "<group>"; };
+		4818AD5F256761FB009DE118 /* FSFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSFlowLayout.m; sourceTree = "<group>"; };
+		4818AD6725676292009DE118 /* FSCVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCVCell.m; sourceTree = "<group>"; };
+		4818AD6825676292009DE118 /* FSCVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCVCell.h; sourceTree = "<group>"; };
+		4818AD6925676292009DE118 /* FSCVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSCVCell.xib; sourceTree = "<group>"; };
 		48752CA02567512300648B4F /* FSSideslipReturn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSSideslipReturn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48752CA32567512300648B4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		48752CA42567512300648B4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -37,6 +64,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4818AD2E25675CF6009DE118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		48752C9D2567512300648B4F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -47,10 +81,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4818AD3225675CF6009DE118 /* FSFerrisWheel */ = {
+			isa = PBXGroup;
+			children = (
+				4818AD5425675D5F009DE118 /* FerrisWheel */,
+				4818AD3325675CF6009DE118 /* AppDelegate.h */,
+				4818AD3425675CF6009DE118 /* AppDelegate.m */,
+				4818AD3925675CF6009DE118 /* ViewController.h */,
+				4818AD3A25675CF6009DE118 /* ViewController.m */,
+				4818AD3C25675CF6009DE118 /* Main.storyboard */,
+				4818AD3F25675CF9009DE118 /* Assets.xcassets */,
+				4818AD4125675CF9009DE118 /* LaunchScreen.storyboard */,
+				4818AD4425675CFA009DE118 /* Info.plist */,
+				4818AD4525675CFA009DE118 /* main.m */,
+			);
+			path = FSFerrisWheel;
+			sourceTree = "<group>";
+		};
+		4818AD5425675D5F009DE118 /* FerrisWheel */ = {
+			isa = PBXGroup;
+			children = (
+				4818AD5525675D84009DE118 /* FSFerrisWheelView.h */,
+				4818AD5625675D84009DE118 /* FSFerrisWheelView.m */,
+				4818AD5E256761FB009DE118 /* FSFlowLayout.h */,
+				4818AD5F256761FB009DE118 /* FSFlowLayout.m */,
+				4818AD6825676292009DE118 /* FSCVCell.h */,
+				4818AD6725676292009DE118 /* FSCVCell.m */,
+				4818AD6925676292009DE118 /* FSCVCell.xib */,
+			);
+			path = FerrisWheel;
+			sourceTree = "<group>";
+		};
 		48752C972567512300648B4F = {
 			isa = PBXGroup;
 			children = (
 				48752CA22567512300648B4F /* FSSideslipReturn */,
+				4818AD3225675CF6009DE118 /* FSFerrisWheel */,
 				48752CA12567512300648B4F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				48752CA02567512300648B4F /* FSSideslipReturn.app */,
+				4818AD3125675CF6009DE118 /* FSFerrisWheel.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +179,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4818AD3025675CF6009DE118 /* FSFerrisWheel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4818AD4725675CFA009DE118 /* Build configuration list for PBXNativeTarget "FSFerrisWheel" */;
+			buildPhases = (
+				4818AD2D25675CF6009DE118 /* Sources */,
+				4818AD2E25675CF6009DE118 /* Frameworks */,
+				4818AD2F25675CF6009DE118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSFerrisWheel;
+			productName = FSFerrisWheel;
+			productReference = 4818AD3125675CF6009DE118 /* FSFerrisWheel.app */;
+			productType = "com.apple.product-type.application";
+		};
 		48752C9F2567512300648B4F /* FSSideslipReturn */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48752CB92567512700648B4F /* Build configuration list for PBXNativeTarget "FSSideslipReturn" */;
@@ -137,6 +221,9 @@
 			attributes = {
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
+					4818AD3025675CF6009DE118 = {
+						CreatedOnToolsVersion = 12.2;
+					};
 					48752C9F2567512300648B4F = {
 						CreatedOnToolsVersion = 12.2;
 					};
@@ -156,11 +243,23 @@
 			projectRoot = "";
 			targets = (
 				48752C9F2567512300648B4F /* FSSideslipReturn */,
+				4818AD3025675CF6009DE118 /* FSFerrisWheel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4818AD2F25675CF6009DE118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4818AD6B25676293009DE118 /* FSCVCell.xib in Resources */,
+				4818AD4325675CF9009DE118 /* LaunchScreen.storyboard in Resources */,
+				4818AD4025675CF9009DE118 /* Assets.xcassets in Resources */,
+				4818AD3E25675CF6009DE118 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		48752C9E2567512300648B4F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -173,6 +272,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4818AD2D25675CF6009DE118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4818AD3B25675CF6009DE118 /* ViewController.m in Sources */,
+				4818AD3525675CF6009DE118 /* AppDelegate.m in Sources */,
+				4818AD6A25676293009DE118 /* FSCVCell.m in Sources */,
+				4818AD5725675D84009DE118 /* FSFerrisWheelView.m in Sources */,
+				4818AD4625675CFA009DE118 /* main.m in Sources */,
+				4818AD60256761FB009DE118 /* FSFlowLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		48752C9C2567512300648B4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -189,6 +301,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		4818AD3C25675CF6009DE118 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4818AD3D25675CF6009DE118 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4818AD4125675CF9009DE118 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4818AD4225675CF9009DE118 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		48752CB12567512700648B4F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -200,6 +328,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4818AD4825675CFA009DE118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CJVWY5HNMC;
+				INFOPLIST_FILE = FSFerrisWheel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhidoulink.FSFerrisWheel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4818AD4925675CFA009DE118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CJVWY5HNMC;
+				INFOPLIST_FILE = FSFerrisWheel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhidoulink.FSFerrisWheel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		48752CB72567512700648B4F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -357,6 +525,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4818AD4725675CFA009DE118 /* Build configuration list for PBXNativeTarget "FSFerrisWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4818AD4825675CFA009DE118 /* Debug */,
+				4818AD4925675CFA009DE118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		48752C9B2567512300648B4F /* Build configuration list for PBXProject "FSSideslipReturn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
